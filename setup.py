@@ -76,7 +76,7 @@ setup(
         'tests': ['pytest', 'pytest-cov', 'ruff'],
     },
     packages=find_packages(),
-    python_requires='>=3.7, <3.11',
+    python_requires='>=3.7, <3.12',
     classifiers=[
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
@@ -87,6 +87,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
